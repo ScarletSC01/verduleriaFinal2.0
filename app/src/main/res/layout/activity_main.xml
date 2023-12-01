@@ -5,33 +5,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CDDC39"
+    android:backgroundTint="#7A7878"
+    android:foregroundTint="#452121"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="verduras verdes"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#28FCB2"
+        android:background="#4CAF50"
+        android:backgroundTint="#00C6B2"
         tools:layout_editor_absoluteX="-178dp"
         tools:layout_editor_absoluteY="109dp">
 
         <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="617dp"
-            android:layout_height="1009dp"
+            android:id="@+id/imageView4"
+            android:layout_width="479dp"
+            android:layout_height="861dp"
+            android:layout_marginStart="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.929"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.837"
-            app:srcCompat="@drawable/degradado2" />
+            app:srcCompat="@drawable/treweq" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.765" />
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="244dp"
+            android:layout_width="410dp"
+            android:layout_height="594dp"
+            android:layout_marginBottom="380dp"
+            android:background="#00FFFFFF"
+            android:foregroundTint="#00FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="@drawable/rectangulo" />
@@ -40,40 +70,46 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:backgroundTint="#0B0B0B"
             android:fontFamily="cursive"
             android:text="Alan_MR"
+            android:textColor="#F4F4F4"
             android:textSize="25sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.837" />
+            app:layout_constraintVertical_bias="0.838" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:layout_width="239dp"
+            android:layout_height="89dp"
             android:fontFamily="cursive"
-            android:text="verduras verdes"
+            android:text="Verduleria"
             android:textColor="@color/white"
-            android:textSize="45sp"
+            android:textSize="50sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintHorizontal_bias="0.61"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.123" />
+            app:layout_constraintVertical_bias="0.038" />
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="267dp"
-            android:layout_height="476dp"
+            android:id="@+id/imageView6"
+            android:layout_width="305dp"
+            android:layout_height="345dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="178dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="208dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.517"
-            app:srcCompat="@drawable/cosecha" />
+            app:srcCompat="@drawable/vegetales" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "736930745643",
+    "project_id": "nacionalbd-d01fb",
+    "storage_bucket": "nacionalbd-d01fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736930745643:android:7b99931e415f34b24e096e",
+        "android_client_info": {
+          "package_name": "cl.j.verduleria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB83SeQZCLCnKB9uI2xH44ft_ORtPbKfxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
